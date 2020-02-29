@@ -1,8 +1,10 @@
-## spfx-demos
+# spfx-demos
 
-This is where you include your WebPart documentation.
+>This is a sample project with different web parts showing different capabilities.
 
-### Building the code
+> Please follow my blog [**_Know More_**](https://windowssharepointserver.blogspot.com/) for detailed explanation and concepts used.
+
+## Building the code
 
 ```bash
 git clone the repo
