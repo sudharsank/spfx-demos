@@ -36,14 +36,16 @@ export default class Demo1 extends React.Component<IDemo1Props, IDemo1State> {
 
   private getDataCollections = () => {
     let dataCollections: IDateModel[] = [];
-    this.props.collectionData.map(data => {
-      dataCollections.push({
-        ID: data.uniqueId,
-        StartDate: data.QStartDate,
-        EndDate: data.QEndDate
+    if (this.props.collectionData) {
+      this.props.collectionData.map(data => {
+        dataCollections.push({
+          ID: data.uniqueId,
+          StartDate: data.QStartDate,
+          EndDate: data.QEndDate
+        });
       });
-    });
-    this.setState({ dateCollections: dataCollections });
+      this.setState({ dateCollections: dataCollections });
+    }
   }
 
   public render(): JSX.Element {
@@ -57,11 +59,11 @@ export default class Demo1 extends React.Component<IDemo1Props, IDemo1State> {
               <div>
                 {this.state.dateCollections && this.state.dateCollections.map(data => {
                   return (
-                    <div style={{paddingBottom: '10px', borderBottom: '1px solid #CCC'}}>
+                    <div style={{ paddingBottom: '10px', borderBottom: '1px solid #CCC' }}>
                       <div>{`Unique Id: ${data.ID}`}</div>
                       <div>{`Start Date: ${moment(data.StartDate).format("MM/DD/YYYY")}`}</div>
                       <div>{`End Date: ${moment(data.EndDate).format("MM/DD/YYYY")}`}</div>
-                    </div>                    
+                    </div>
                   );
                 })}
               </div>

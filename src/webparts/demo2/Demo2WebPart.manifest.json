@@ -1,7 +1,7 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
-  "id": "5421b075-3c86-4948-b8d7-a66e70569d8a",
-  "alias": "Demo1WebPart",
+  "id": "ec1c41a2-0055-451f-bd92-dd9585239d38",
+  "alias": "Demo2WebPart",
   "componentType": "WebPart",
   "version": "*",
   "manifestVersion": 2,
@@ -11,11 +11,11 @@
   "preconfiguredEntries": [{
     "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
     "group": { "default": "Other" },
-    "title": { "default": "demo1" },
-    "description": { "default": "Using DateTime in PropertyFieldCollectionData property pane control" },
+    "title": { "default": "Demo2" },
+    "description": { "default": "Using FilePicker to upload the file to the list as an attachment." },
     "officeFabricIconFontName": "GiftboxOpen",
     "properties": {
-      "description": "demo1"
+      "description": "Demo2"
     }
   }]
 }
