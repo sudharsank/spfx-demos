@@ -43,15 +43,17 @@ export default class Demo3 extends React.Component<IDemo3Props, IDemo3State> {
     }
 
     public _buildDataList = () => {
-        let parsedJson = JSON.parse(this.props.jsonData);
-        let _dynamicColumns: string[] = [];
-        Object.keys(parsedJson[0]).map((key) => {
-            _dynamicColumns.push(key);
-        });
-        this.setState({
-            columns: this._buildColumns(_dynamicColumns),
-            items: parsedJson,
-        });
+        if (this.props.jsonData) {
+            let parsedJson = JSON.parse(this.props.jsonData);
+            let _dynamicColumns: string[] = [];
+            Object.keys(parsedJson[0]).map((key) => {
+                _dynamicColumns.push(key);
+            });
+            this.setState({
+                columns: this._buildColumns(_dynamicColumns),
+                items: parsedJson,
+            });
+        }
     }
 
     public render(): React.ReactElement<IDemo3Props> {
@@ -60,17 +62,19 @@ export default class Demo3 extends React.Component<IDemo3Props, IDemo3State> {
             <div className={styles.demo3}>
                 <div className={styles.container}>
                     <div className={styles.row}>
-                        <p>{strings.WebPartTitle}</p>
-                        <DetailsList
-                            items={items}
-                            setKey="set"
-                            columns={columns}
-                            compact={true}
-                            layoutMode={DetailsListLayoutMode.justified}
-                            constrainMode={ConstrainMode.unconstrained}
-                            isHeaderVisible={true}
-                            selectionMode={SelectionMode.none}
-                            enableShimmer={true} />
+                        <p className={styles.webpartTitle}>{strings.WebPartTitle}</p>
+                        {items && items.length > 0 &&
+                            <DetailsList
+                                items={items}
+                                setKey="set"
+                                columns={columns}
+                                compact={true}
+                                layoutMode={DetailsListLayoutMode.justified}
+                                constrainMode={ConstrainMode.unconstrained}
+                                isHeaderVisible={true}
+                                selectionMode={SelectionMode.none}
+                                enableShimmer={true} />
+                        }
                     </div>
                 </div>
             </div>

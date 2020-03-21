@@ -5,6 +5,7 @@ import {
     IPropertyPaneConfiguration
 } from '@microsoft/sp-property-pane';
 import { BaseClientSideWebPart } from '@microsoft/sp-webpart-base';
+
 import { PropertyFieldCodeEditor, PropertyFieldCodeEditorLanguages } from '@pnp/spfx-property-controls/lib/PropertyFieldCodeEditor';
 
 import * as strings from 'Demo3WebPartStrings';
