@@ -17,6 +17,14 @@
           "manifest": "./src/webparts/demo2/Demo2WebPart.manifest.json"
         }
       ]
+    },
+    "demo-3-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/demo3/Demo3WebPart.js",
+          "manifest": "./src/webparts/demo3/Demo3WebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -24,6 +32,7 @@
     "Demo1WebPartStrings": "lib/webparts/demo1/loc/{locale}.js",
     "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js",
     "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
-    "Demo2WebPartStrings": "lib/webparts/demo2/loc/{locale}.js"
+    "Demo2WebPartStrings": "lib/webparts/demo2/loc/{locale}.js",
+    "Demo3WebPartStrings": "lib/webparts/demo3/loc/{locale}.js"
   }
 }

@@ -40,7 +40,7 @@ export default class Demo2 extends React.Component<IDemo2Props, IDemo2State> {
   private addAttachmentToList = async () => {
     const { filePicked } = this.state;
     if (filePicked) {
-      let targetList: IList = await sp.web.lists.getByTitle('Demo')
+      let targetList: IList = await sp.web.lists.getByTitle('Demo');
       let addedItem: IItemAddResult = await targetList.items.add({
         Title: new Date().toString()
       });
@@ -51,7 +51,7 @@ export default class Demo2 extends React.Component<IDemo2Props, IDemo2State> {
         await targetList.items.getById(addedItem.data.Id).attachmentFiles
           .add(filePicked.fileName, reader.result);
         this.setState({ message: 'Attachment Successfully added' });
-      }
+      };
     }
   }
 

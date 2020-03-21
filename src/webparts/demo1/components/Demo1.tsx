@@ -20,7 +20,7 @@ export default class Demo1 extends React.Component<IDemo1Props, IDemo1State> {
     super(props);
     this.state = {
       dateCollections: []
-    }
+    };
   }
 
   public componentDidMount = () => {
