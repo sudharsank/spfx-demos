@@ -1,0 +1,17 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.demo4 {
+  .container {
+    margin: 0px auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  }
+  .row {
+    @include ms-Grid-row;
+    padding: 20px;
+  }
+  .webpartTitle {
+    font-weight: bold;
+    margin: 0px 0px 15px 10px;
+    font-size: 16px;
+  }
+}

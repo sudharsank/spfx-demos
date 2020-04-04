@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "ebaac390-b9f4-4f1b-af64-e9db26441298",
+  "alias": "Demo4WebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "demo4" },
+    "description": { "default": "Office UI Fabric react DetailsList to show the CSV data." },
+    "officeFabricIconFontName": "GiftboxOpen",
+    "properties": {}
+  }]
+}
