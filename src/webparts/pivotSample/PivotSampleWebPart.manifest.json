@@ -1,7 +1,7 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
-  "id": "76675ec0-de86-4a91-b1e1-0bcc67981f78",
-  "alias": "ReactContextDemoWebPart",
+  "id": "b3a07eec-909a-45eb-b541-88b8bea07783",
+  "alias": "PivotSampleWebPart",
   "componentType": "WebPart",
   "version": "*",
   "manifestVersion": 2,
@@ -11,8 +11,8 @@
   "preconfiguredEntries": [{
     "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
     "group": { "default": "Other" },
-    "title": { "default": "React Context Demo" },
-    "description": { "default": "Using context API in SPFx." },
+    "title": { "default": "Pivot Samples" },
+    "description": { "default": "Using Fluent UI Pivot in spfx web part." },
     "officeFabricIconFontName": "GiftboxOpen",
     "properties": { }
   }]

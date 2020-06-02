@@ -41,6 +41,14 @@
           "manifest": "./src/webparts/reactContextDemo/ReactContextDemoWebPart.manifest.json"
         }
       ]
+    },
+    "pivot-sample-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/pivotSample/PivotSampleWebPart.js",
+          "manifest": "./src/webparts/pivotSample/PivotSampleWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -51,6 +59,7 @@
     "Demo2WebPartStrings": "lib/webparts/demo2/loc/{locale}.js",
     "Demo3WebPartStrings": "lib/webparts/demo3/loc/{locale}.js",
     "Demo4WebPartStrings": "lib/webparts/demo4/loc/{locale}.js",
-    "ReactContextDemoWebPartStrings": "lib/webparts/reactContextDemo/loc/{locale}.js"
+    "ReactContextDemoWebPartStrings": "lib/webparts/reactContextDemo/loc/{locale}.js",
+    "PivotSampleWebPartStrings": "lib/webparts/pivotSample/loc/{locale}.js"
   }
 }
