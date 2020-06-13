@@ -1,0 +1,16 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.uniteGallerySample {
+    .slide {
+        background-color: #fff;
+        padding: 0px;
+        margin: 0px 0px 20px;
+        box-shadow: 0 6px 15px rgba(209,209,209,0.8);
+        position: relative;
+        .carousel_inner {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+        }
+    }
+}

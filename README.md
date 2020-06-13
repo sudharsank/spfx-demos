@@ -31,6 +31,7 @@ demo3 | Using [DetailsList](https://developer.microsoft.com/en-us/fabric#/contro
 demo4 | Using [DetailsList](https://developer.microsoft.com/en-us/fabric#/controls/web/detailslist) and [PropertyFieldCodeEditor](https://sharepoint.github.io/sp-dev-fx-property-controls/controls/PropertyFieldCodeEditor/) to display the CSV data from the webpart properties in the DetailsList. [Click here](https://windowssharepointserver.blogspot.com/2020/04/spfx-office-ui-fabric-react-detailslist.html) for more info
 reactContextDemo | [Click here](https://spknowledge.com/2020/05/13/using-react-context-api-in-spfx/) for more info
 pivotSample | [Click here](https://spknowledge.com/2020/06/02/spfx-using-fluent-ui-pivot-control/) for more info
+uniteGallerySample | [Click here](https://spknowledge.com/2020/06/14/spfx-using-unitegallery-jquery-plugin/) for more info
 
 ## Building the code
 
