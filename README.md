@@ -19,10 +19,13 @@
 ![DetailsList & PropertyFieldCodeEditor & CSV Data](./assets/demo4.gif)
 
 ### pivotSample - Office UI Fabric react Pivot with different variations.
-![Pivot Sample Demo](https://6kzblw.sn.files.1drv.com/y4p3BFRTNpMN9UMdoykkf6V4CPNsnInxfi4N2Z0uRZAhdYhPXvzXmp90vfE_lDTAR7hABOzn4GkertFgC493ehdis3hA3HwZZelE2x-uNEBTAL3kMQO7xRLBx_S9iKsWitNyvLF-FT4XNjpwJtTy0WK0X9y8_CKeFErf2-8y8NpRRcRaczISLEMQrJOMp8HNJD62gzCQCbxupMgWn-m1Hw2tHX7DxGS81xBCv8BJF6TvCY/PivotSamples.gif)
+![Pivot Sample Demo](./assets/PivotSamples.gif)
 
 ### uniteGallery
-![UniteGallery Sample](https://dpdiew.sn.files.1drv.com/y4pvhjTWRbxBnXBc46SASaIVM2nhOMr4_ABxfCXReww9b4AeasQxE6dTvpsh0CtjWXQdcuuBObGbjs0NYF99lpuMuCd_s9p3V-BDFGyA1f8r0ZOVE4CfNXzvJqvXW9ETnz-0o0SiFrEELYEPGfo_NUBaSsmWTaizQKn2xhb04XplUvF4v2m4FxaiA-73koNGQS2FvWDZMLjwHqYus4JOvMUcLzoxjYMz8DHnoeAR4gyOso/SPFx_UniteGallery.png)
+![UniteGallery Sample](./assets/SPFx_UniteGallery.png)
+
+### React Custom Hooks
+![React Custom Hooks](./assets/SPFx_CustomHooks.png)
 
 ## Solution
 
