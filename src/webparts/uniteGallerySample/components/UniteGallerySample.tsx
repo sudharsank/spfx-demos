@@ -32,11 +32,11 @@ export default class UniteGallerySample extends React.Component<IUniteGallerySam
         return Math.floor((1 + Math.random()) * 0x10000)
             .toString(16)
             .substring(1);
-    };
+    }
 
     public getGuid = () => {
         return this.s4() + this.s4() + '-' + this.s4() + '-' + this.s4() + '-' + this.s4() + '-' + this.s4() + this.s4() + this.s4();
-    };
+    }
 
     public _getImages = (): JSX.Element => {
         return (
