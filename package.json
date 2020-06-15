@@ -28,7 +28,8 @@
     "moment": "^2.24.0",
     "office-ui-fabric-react": "6.189.2",
     "react": "16.8.5",
-    "react-dom": "16.8.5"
+    "react-dom": "16.8.5",
+    "toastr": "^2.1.4"
   },
   "resolutions": {
     "@types/react": "16.8.8"
@@ -42,6 +43,7 @@
     "@types/chai": "3.4.34",
     "@types/jquery": "^3.3.38",
     "@types/mocha": "2.2.38",
+    "@types/toastr": "^2.1.38",
     "ajv": "~5.2.2",
     "gulp": "~3.9.1",
     "jquery": "^3.5.1"
