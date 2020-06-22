@@ -46,7 +46,7 @@ pivotSample | [Click here](https://spknowledge.com/2020/06/02/spfx-using-fluent-
 uniteGallerySample | [Click here](https://spknowledge.com/2020/06/14/spfx-using-unitegallery-jquery-plugin/) for more info
 React Custom Hooks | [Click here](https://spknowledge.com/2020/06/14/spfx-using-custom-hooks/) for more info
 ToastrSample ! [Click here](https://spknowledge.com/2020/06/15/spfx-using-toastr-plugin/) for more info
-MSGraphAPISample ! [Click here](https://spknowledge.com/) for more info
+MSGraphAPISample ! [Click here](https://spknowledge.com/2020/06/22/spfx-using-msgraph-api/) for more info
 
 ## Building the code
 
