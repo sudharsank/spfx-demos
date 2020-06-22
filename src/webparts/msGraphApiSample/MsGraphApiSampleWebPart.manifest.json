@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "540d6d10-c9a3-4c4d-9fb6-18bbab8eca09",
+  "alias": "MsGraphApiSampleWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "MSGraph API Sample" },
+    "description": { "default": "Using MSGraph API to retrieve data." },
+    "officeFabricIconFontName": "GiftboxOpen",
+    "properties": { }
+  }]
+}

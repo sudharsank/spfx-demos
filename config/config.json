@@ -1,120 +1,129 @@
 {
-    "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
-    "version": "2.0",
-    "bundles": {
-        "demo-1-web-part": {
-            "components": [
-                {
-                    "entrypoint": "./lib/webparts/demo1/Demo1WebPart.js",
-                    "manifest": "./src/webparts/demo1/Demo1WebPart.manifest.json"
-                }
-            ]
-        },
-        "demo-2-web-part": {
-            "components": [
-                {
-                    "entrypoint": "./lib/webparts/demo2/Demo2WebPart.js",
-                    "manifest": "./src/webparts/demo2/Demo2WebPart.manifest.json"
-                }
-            ]
-        },
-        "demo-3-web-part": {
-            "components": [
-                {
-                    "entrypoint": "./lib/webparts/demo3/Demo3WebPart.js",
-                    "manifest": "./src/webparts/demo3/Demo3WebPart.manifest.json"
-                }
-            ]
-        },
-        "demo-4-web-part": {
-            "components": [
-                {
-                    "entrypoint": "./lib/webparts/demo4/Demo4WebPart.js",
-                    "manifest": "./src/webparts/demo4/Demo4WebPart.manifest.json"
-                }
-            ]
-        },
-        "react-context-demo-web-part": {
-            "components": [
-                {
-                    "entrypoint": "./lib/webparts/reactContextDemo/ReactContextDemoWebPart.js",
-                    "manifest": "./src/webparts/reactContextDemo/ReactContextDemoWebPart.manifest.json"
-                }
-            ]
-        },
-        "pivot-sample-web-part": {
-            "components": [
-                {
-                    "entrypoint": "./lib/webparts/pivotSample/PivotSampleWebPart.js",
-                    "manifest": "./src/webparts/pivotSample/PivotSampleWebPart.manifest.json"
-                }
-            ]
-        },
-        "unite-gallery-sample-web-part": {
-            "components": [
-                {
-                    "entrypoint": "./lib/webparts/uniteGallerySample/UniteGallerySampleWebPart.js",
-                    "manifest": "./src/webparts/uniteGallerySample/UniteGallerySampleWebPart.manifest.json"
-                }
-            ]
-        },
-        "custom-hooks-web-part": {
-            "components": [
-                {
-                    "entrypoint": "./lib/webparts/customHooks/CustomHooksWebPart.js",
-                    "manifest": "./src/webparts/customHooks/CustomHooksWebPart.manifest.json"
-                }
-            ]
-        },
-        "toastr-sample-web-part": {
-            "components": [
-                {
-                    "entrypoint": "./lib/webparts/toastrSample/ToastrSampleWebPart.js",
-                    "manifest": "./src/webparts/toastrSample/ToastrSampleWebPart.manifest.json"
-                }
-            ]
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "demo-1-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/demo1/Demo1WebPart.js",
+          "manifest": "./src/webparts/demo1/Demo1WebPart.manifest.json"
         }
+      ]
     },
-    "externals": {
-        "jquery": {
-            "path": "https://code.jquery.com/jquery-3.1.0.min.js",
-            "globalName": "jQuery"
-        },
-        "unitegallery": {
-            "path": "./src/js/ug-unitegallery.min.js",
-            "globalName": "jQuery",
-            "globalDependencies": [
-                "jquery"
-            ]
-        },
-        "ug-theme-slider": {
-            "path": "./src/js/ug-theme-slider.js",
-            "globalName": "jQuery",
-            "globalDependencies": [
-                "jquery",
-                "unitegallery"
-            ]
-        },
-        "ug-theme-carousel": {
-            "path": "./src/js/ug-theme-carousel.js",
-            "globalName": "jQuery",
-            "globalDependencies": [
-                "jquery",
-                "unitegallery"
-            ]
+    "demo-2-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/demo2/Demo2WebPart.js",
+          "manifest": "./src/webparts/demo2/Demo2WebPart.manifest.json"
         }
+      ]
     },
-    "localizedResources": {
-        "Demo1WebPartStrings": "lib/webparts/demo1/loc/{locale}.js",
-        "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js",
-        "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
-        "Demo2WebPartStrings": "lib/webparts/demo2/loc/{locale}.js",
-        "Demo3WebPartStrings": "lib/webparts/demo3/loc/{locale}.js",
-        "Demo4WebPartStrings": "lib/webparts/demo4/loc/{locale}.js",
-        "ReactContextDemoWebPartStrings": "lib/webparts/reactContextDemo/loc/{locale}.js",
-        "PivotSampleWebPartStrings": "lib/webparts/pivotSample/loc/{locale}.js",
-        "UniteGallerySampleWebPartStrings": "lib/webparts/uniteGallerySample/loc/{locale}.js",
-        "CustomHooksWebPartStrings": "lib/webparts/customHooks/loc/{locale}.js",
-        "ToastrSampleWebPartStrings": "lib/webparts/toastrSample/loc/{locale}.js"
+    "demo-3-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/demo3/Demo3WebPart.js",
+          "manifest": "./src/webparts/demo3/Demo3WebPart.manifest.json"
+        }
+      ]
+    },
+    "demo-4-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/demo4/Demo4WebPart.js",
+          "manifest": "./src/webparts/demo4/Demo4WebPart.manifest.json"
+        }
+      ]
+    },
+    "react-context-demo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/reactContextDemo/ReactContextDemoWebPart.js",
+          "manifest": "./src/webparts/reactContextDemo/ReactContextDemoWebPart.manifest.json"
+        }
+      ]
+    },
+    "pivot-sample-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/pivotSample/PivotSampleWebPart.js",
+          "manifest": "./src/webparts/pivotSample/PivotSampleWebPart.manifest.json"
+        }
+      ]
+    },
+    "unite-gallery-sample-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/uniteGallerySample/UniteGallerySampleWebPart.js",
+          "manifest": "./src/webparts/uniteGallerySample/UniteGallerySampleWebPart.manifest.json"
+        }
+      ]
+    },
+    "custom-hooks-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/customHooks/CustomHooksWebPart.js",
+          "manifest": "./src/webparts/customHooks/CustomHooksWebPart.manifest.json"
+        }
+      ]
+    },
+    "toastr-sample-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/toastrSample/ToastrSampleWebPart.js",
+          "manifest": "./src/webparts/toastrSample/ToastrSampleWebPart.manifest.json"
+        }
+      ]
+    },
+    "ms-graph-api-sample-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/msGraphApiSample/MsGraphApiSampleWebPart.js",
+          "manifest": "./src/webparts/msGraphApiSample/MsGraphApiSampleWebPart.manifest.json"
+        }
+      ]
     }
+  },
+  "externals": {
+    "jquery": {
+      "path": "https://code.jquery.com/jquery-3.1.0.min.js",
+      "globalName": "jQuery"
+    },
+    "unitegallery": {
+      "path": "./src/js/ug-unitegallery.min.js",
+      "globalName": "jQuery",
+      "globalDependencies": [
+        "jquery"
+      ]
+    },
+    "ug-theme-slider": {
+      "path": "./src/js/ug-theme-slider.js",
+      "globalName": "jQuery",
+      "globalDependencies": [
+        "jquery",
+        "unitegallery"
+      ]
+    },
+    "ug-theme-carousel": {
+      "path": "./src/js/ug-theme-carousel.js",
+      "globalName": "jQuery",
+      "globalDependencies": [
+        "jquery",
+        "unitegallery"
+      ]
+    }
+  },
+  "localizedResources": {
+    "Demo1WebPartStrings": "lib/webparts/demo1/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "Demo2WebPartStrings": "lib/webparts/demo2/loc/{locale}.js",
+    "Demo3WebPartStrings": "lib/webparts/demo3/loc/{locale}.js",
+    "Demo4WebPartStrings": "lib/webparts/demo4/loc/{locale}.js",
+    "ReactContextDemoWebPartStrings": "lib/webparts/reactContextDemo/loc/{locale}.js",
+    "PivotSampleWebPartStrings": "lib/webparts/pivotSample/loc/{locale}.js",
+    "UniteGallerySampleWebPartStrings": "lib/webparts/uniteGallerySample/loc/{locale}.js",
+    "CustomHooksWebPartStrings": "lib/webparts/customHooks/loc/{locale}.js",
+    "ToastrSampleWebPartStrings": "lib/webparts/toastrSample/loc/{locale}.js",
+    "MsGraphApiSampleWebPartStrings": "lib/webparts/msGraphApiSample/loc/{locale}.js"
+  }
 }
