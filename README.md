@@ -33,7 +33,7 @@
 ### MSGraph API
 ![MSGraph API](./assets/SPFx_MSGraphAPI.gif)
 
-## Solution
+## Solution 
 
 Webparts|Description
 --------|---------
