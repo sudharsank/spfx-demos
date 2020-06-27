@@ -19,6 +19,7 @@
     "@microsoft/sp-webpart-base": "1.10.0",
     "@pnp/common": "^2.0.6",
     "@pnp/graph": "^2.0.6",
+    "@pnp/logging": "2.0.6",
     "@pnp/odata": "^2.0.6",
     "@pnp/sp": "^2.0.6",
     "@pnp/spfx-controls-react": "^1.16.0",

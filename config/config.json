@@ -81,6 +81,14 @@
           "manifest": "./src/webparts/msGraphApiSample/MsGraphApiSampleWebPart.manifest.json"
         }
       ]
+    },
+    "pn-p-logging-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/pnPLogging/PnPLoggingWebPart.js",
+          "manifest": "./src/webparts/pnPLogging/PnPLoggingWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {
@@ -124,6 +132,7 @@
     "UniteGallerySampleWebPartStrings": "lib/webparts/uniteGallerySample/loc/{locale}.js",
     "CustomHooksWebPartStrings": "lib/webparts/customHooks/loc/{locale}.js",
     "ToastrSampleWebPartStrings": "lib/webparts/toastrSample/loc/{locale}.js",
-    "MsGraphApiSampleWebPartStrings": "lib/webparts/msGraphApiSample/loc/{locale}.js"
+    "MsGraphApiSampleWebPartStrings": "lib/webparts/msGraphApiSample/loc/{locale}.js",
+    "PnPLoggingWebPartStrings": "lib/webparts/pnPLogging/loc/{locale}.js"
   }
 }

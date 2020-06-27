@@ -33,6 +33,9 @@
 ### MSGraph API
 ![MSGraph API](./assets/SPFx_MSGraphAPI.gif)
 
+### PnPLogging
+![PnP Logging](./assets/PnPLogging.png)
+
 ## Solution 
 
 Webparts|Description
@@ -47,6 +50,7 @@ uniteGallerySample | [Click here](https://spknowledge.com/2020/06/14/spfx-using-
 React Custom Hooks | [Click here](https://spknowledge.com/2020/06/14/spfx-using-custom-hooks/) for more info
 ToastrSample | [Click here](https://spknowledge.com/2020/06/15/spfx-using-toastr-plugin/) for more info
 MSGraphAPISample | [Click here](https://spknowledge.com/2020/06/22/spfx-using-msgraph-api/) for more info
+PnPLogging | [Click here](https://spknowledge.com) for more info
 
 ## Building the code
 
