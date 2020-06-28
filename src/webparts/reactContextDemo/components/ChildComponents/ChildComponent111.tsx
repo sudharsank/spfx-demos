@@ -17,4 +17,4 @@ export const ChildComponent111: React.FunctionComponent<{}> = (props) => {
             </div>
         </div>
     );
-}
+};

@@ -38,10 +38,10 @@ export default class ToastrSample extends React.Component<IToastrSampleProps, {}
                 <div className={styles.container}>
                     <div className={styles.row}>
                         <div className={styles.column}>
-                            <DefaultButton onClick={() => { this._showToastrMessage('success') }}>Success</DefaultButton>
-                            <DefaultButton onClick={() => { this._showToastrMessage('info') }}>Info</DefaultButton>
-                            <DefaultButton onClick={() => { this._showToastrMessage('warning') }}>Warning</DefaultButton>
-                            <DefaultButton onClick={() => { this._showToastrMessage('error') }}>Error</DefaultButton>
+                            <DefaultButton onClick={() => { this._showToastrMessage('success'); }}>Success</DefaultButton>
+                            <DefaultButton onClick={() => { this._showToastrMessage('info'); }}>Info</DefaultButton>
+                            <DefaultButton onClick={() => { this._showToastrMessage('warning'); }}>Warning</DefaultButton>
+                            <DefaultButton onClick={() => { this._showToastrMessage('error'); }}>Error</DefaultButton>
                         </div>
                     </div>
                 </div>

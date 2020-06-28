@@ -7,32 +7,30 @@ import {
 } from '@microsoft/sp-property-pane';
 import { BaseClientSideWebPart } from '@microsoft/sp-webpart-base';
 
-import * as strings from 'MsGraphApiSampleWebPartStrings';
-import MsGraphApiSample from './components/MsGraphApiSample';
-import { IMsGraphApiSampleProps } from './components/MsGraphApiSample';
+import * as strings from 'LocalStorageWebPartStrings';
+import LocalStorage from './components/LocalStorage';
+import { ILocalStorageProps } from './components/LocalStorage';
 
-import { graph } from "@pnp/graph";
-import { MSGraphClient } from '@microsoft/sp-http';
+import { sp } from "@pnp/sp";
 
-export interface IMsGraphApiSampleWebPartProps {
-    client: MSGraphClient;
+
+export interface ILocalStorageWebPartProps {
+    description: string;
 }
 
-export default class MsGraphApiSampleWebPart extends BaseClientSideWebPart<IMsGraphApiSampleWebPartProps> {
+export default class LocalStorageWebPart extends BaseClientSideWebPart<ILocalStorageWebPartProps> {
 
-    protected onInit(): Promise<void> {
+    public onInit(): Promise<void> {
         return super.onInit().then(_ => {
-            graph.setup({
-                spfxContext: this.context
-            });
+            sp.setup(this.context);
         });
     }
 
-    public async render(): Promise<void> {
-        const element: React.ReactElement<IMsGraphApiSampleProps> = React.createElement(
-            MsGraphApiSample,
+    public render(): void {
+        const element: React.ReactElement<ILocalStorageProps> = React.createElement(
+            LocalStorage,
             {
-                client: await this.context.msGraphClientFactory.getClient()
+                description: this.properties.description
             }
         );
 

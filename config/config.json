@@ -89,6 +89,14 @@
           "manifest": "./src/webparts/pnPLogging/PnPLoggingWebPart.manifest.json"
         }
       ]
+    },
+    "local-storage-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/localStorage/LocalStorageWebPart.js",
+          "manifest": "./src/webparts/localStorage/LocalStorageWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {
@@ -133,6 +141,7 @@
     "CustomHooksWebPartStrings": "lib/webparts/customHooks/loc/{locale}.js",
     "ToastrSampleWebPartStrings": "lib/webparts/toastrSample/loc/{locale}.js",
     "MsGraphApiSampleWebPartStrings": "lib/webparts/msGraphApiSample/loc/{locale}.js",
-    "PnPLoggingWebPartStrings": "lib/webparts/pnPLogging/loc/{locale}.js"
+    "PnPLoggingWebPartStrings": "lib/webparts/pnPLogging/loc/{locale}.js",
+    "LocalStorageWebPartStrings": "lib/webparts/localStorage/loc/{locale}.js"
   }
 }

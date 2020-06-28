@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "010ea03f-45f9-4e5b-9838-3690dd334aad",
+  "alias": "LocalStorageWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "PnP Local Storage" },
+    "description": { "default": "Using PnP client storage wrapper for local storage." },
+    "officeFabricIconFontName": "GiftboxOpen",
+    "properties": { }
+  }]
+}
