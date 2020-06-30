@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "55999d53-0e8a-470a-8626-7775cd498db2",
+  "alias": "PnPCachingWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "PnPCaching" },
+    "description": { "default": "Using PnP Caching for SharePoint communications." },
+    "officeFabricIconFontName": "GiftboxOpen",
+    "properties": { }
+  }]
+}

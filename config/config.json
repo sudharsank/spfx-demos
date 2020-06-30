@@ -97,6 +97,14 @@
           "manifest": "./src/webparts/localStorage/LocalStorageWebPart.manifest.json"
         }
       ]
+    },
+    "pn-p-caching-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/pnPCaching/PnPCachingWebPart.js",
+          "manifest": "./src/webparts/pnPCaching/PnPCachingWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {
@@ -142,6 +150,7 @@
     "ToastrSampleWebPartStrings": "lib/webparts/toastrSample/loc/{locale}.js",
     "MsGraphApiSampleWebPartStrings": "lib/webparts/msGraphApiSample/loc/{locale}.js",
     "PnPLoggingWebPartStrings": "lib/webparts/pnPLogging/loc/{locale}.js",
-    "LocalStorageWebPartStrings": "lib/webparts/localStorage/loc/{locale}.js"
+    "LocalStorageWebPartStrings": "lib/webparts/localStorage/loc/{locale}.js",
+    "PnPCachingWebPartStrings": "lib/webparts/pnPCaching/loc/{locale}.js"
   }
 }
