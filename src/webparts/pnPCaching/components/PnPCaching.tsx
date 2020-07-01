@@ -1,7 +1,6 @@
 import * as React from 'react';
 import styles from './PnPCaching.module.scss';
 import { IPnPCachingProps } from './IPnPCachingProps';
-import { escape } from '@microsoft/sp-lodash-subset';
 import { DefaultButton } from 'office-ui-fabric-react/lib/Button';
 import { sp } from '@pnp/sp';
 import "@pnp/sp/webs";
