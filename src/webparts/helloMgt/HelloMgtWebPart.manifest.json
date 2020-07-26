@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "7454d593-96d5-4501-b2db-2a0f98a48f70",
+  "alias": "HelloMgtWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "Hello MGT" },
+    "description": { "default": "Using Graph Toolkit." },
+    "officeFabricIconFontName": "GiftboxOpen",
+    "properties": {  }
+  }]
+}

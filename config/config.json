@@ -105,6 +105,22 @@
           "manifest": "./src/webparts/pnPCaching/PnPCachingWebPart.manifest.json"
         }
       ]
+    },
+    "pn-p-config-store-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/pnPConfigStore/PnPConfigStoreWebPart.js",
+          "manifest": "./src/webparts/pnPConfigStore/PnPConfigStoreWebPart.manifest.json"
+        }
+      ]
+    },
+    "hello-mgt-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/helloMgt/HelloMgtWebPart.js",
+          "manifest": "./src/webparts/helloMgt/HelloMgtWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {
@@ -151,6 +167,8 @@
     "MsGraphApiSampleWebPartStrings": "lib/webparts/msGraphApiSample/loc/{locale}.js",
     "PnPLoggingWebPartStrings": "lib/webparts/pnPLogging/loc/{locale}.js",
     "LocalStorageWebPartStrings": "lib/webparts/localStorage/loc/{locale}.js",
-    "PnPCachingWebPartStrings": "lib/webparts/pnPCaching/loc/{locale}.js"
+    "PnPCachingWebPartStrings": "lib/webparts/pnPCaching/loc/{locale}.js",
+    "PnPConfigStoreWebPartStrings": "lib/webparts/pnPConfigStore/loc/{locale}.js",
+    "HelloMgtWebPartStrings": "lib/webparts/helloMgt/loc/{locale}.js"
   }
 }

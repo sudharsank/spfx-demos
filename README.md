@@ -42,6 +42,9 @@
 ### PnPCaching
 ![PnP Caching](./assets/SPFx_PnPCaching.png)
 
+### HelloMGT
+![Hello MGT](./assets/SPFx-MGT.png)
+
 ## Solution 
 
 Webparts|Description
@@ -59,6 +62,7 @@ MSGraphAPISample | [Click here](https://spknowledge.com/2020/06/22/spfx-using-ms
 PnPLogging | [Click here](https://spknowledge.com/2020/06/27/spfx-using-pnp-logging/) for more info
 PnPStorage | [Click here](https://spknowledge.com/2020/06/28/spfx-using-pnpclientstorage/) for more info
 PnPCaching | [Click here](https://spknowledge.com/2020/07/01/spfx-using-pnp-caching/) for more info
+HelloMGT | [Click here](https://spknowledge.com/) for more info
 
 ## Building the code
 

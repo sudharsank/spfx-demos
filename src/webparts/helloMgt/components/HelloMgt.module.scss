@@ -1,0 +1,36 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.helloMgt {
+  .container {
+    max-width: 700px;
+    margin: 0px auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .row {
+    @include ms-Grid-row;
+    @include ms-fontColor-white;
+    background-color: $ms-color-themeDark;
+    padding: 20px;
+  }
+
+  .column {
+    @include ms-Grid-col;
+    @include ms-lg10;
+    @include ms-xl8;
+    @include ms-xlPush2;
+    @include ms-lgPush1;
+  }
+  .divRow {
+      padding: 10px;
+  }
+  .personStyle {
+    --font-family: 'Comic Sans MS', cursive, sans-serif;
+    --color: white;
+    --avatar-size: 60px;
+    --font-size: 20px;
+    --line2-color: white;
+    --avatar-border-radius: 10% 35%;
+    --line2-text-transform: uppercase;
+  }
+}
