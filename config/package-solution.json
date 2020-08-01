@@ -1,31 +1,31 @@
 {
-    "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
-    "solution": {
-        "name": "spfx-demos-client-side-solution",
-        "id": "429c0295-f304-42fc-bdb0-7abdd5bce7c4",
-        "version": "1.0.0.0",
-        "includeClientSideAssets": true,
-        "isDomainIsolated": false,
-        "webApiPermissionRequests": [
-            {
-                "resource": "Microsoft Graph",
-                "scope": "User.Read.All"
-            },
-            {
-                "resource": "Microsoft Graph",
-                "scope": "User.ReadBasic.All"
-            },
-            {
-                "resource": "Microsoft Graph",
-                "scope": "Presence.Read"
-            },
-            {
-                "resource": "Microsoft Graph",
-                "scope": "Presence.Read.All"
-            }
-        ]
-    },
-    "paths": {
-        "zippedPackage": "solution/spfx-demos.sppkg"
-    }
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-demos-client-side-solution",
+    "id": "429c0295-f304-42fc-bdb0-7abdd5bce7c4",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.Read.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.ReadBasic.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Presence.Read"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Presence.Read.All"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-demos.sppkg"
+  }
 }

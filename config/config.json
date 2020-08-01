@@ -121,6 +121,14 @@
           "manifest": "./src/webparts/helloMgt/HelloMgtWebPart.manifest.json"
         }
       ]
+    },
+    "mgt-components-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/mgtComponents/MgtComponentsWebPart.js",
+          "manifest": "./src/webparts/mgtComponents/MgtComponentsWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {
@@ -169,6 +177,7 @@
     "LocalStorageWebPartStrings": "lib/webparts/localStorage/loc/{locale}.js",
     "PnPCachingWebPartStrings": "lib/webparts/pnPCaching/loc/{locale}.js",
     "PnPConfigStoreWebPartStrings": "lib/webparts/pnPConfigStore/loc/{locale}.js",
-    "HelloMgtWebPartStrings": "lib/webparts/helloMgt/loc/{locale}.js"
+    "HelloMgtWebPartStrings": "lib/webparts/helloMgt/loc/{locale}.js",
+    "MgtComponentsWebPartStrings": "lib/webparts/mgtComponents/loc/{locale}.js"
   }
 }
