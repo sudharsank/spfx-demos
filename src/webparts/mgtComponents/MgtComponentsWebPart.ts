@@ -17,10 +17,7 @@ export interface IMgtComponentsWebPartProps {
 }
 
 export default class MgtComponentsWebPart extends BaseClientSideWebPart<IMgtComponentsWebPartProps> {
-    protected onInit(): Promise<void> {
-        // this.themeProvider = this.context.serviceScope.consume(ThemeProvider.serviceKey);
-        // this.theme = this.themeProvider.tryGetTheme();
-        // this.themeProvider.themeChangedEvent.add(this, this.onThemeChanged);
+    protected onInit(): Promise<void> {        
         Providers.globalProvider = new SharePointProvider(this.context);
         return super.onInit();
     }

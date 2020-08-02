@@ -56,4 +56,20 @@
         }
     }
   }
+  .customPersonCard {
+    --avatar-size: 48px;
+    --avatar-border: 0;
+    --avatar-border-radius: 10% 35%;
+    --person-card-display-name-font-size: 25px;
+    --person-card-display-name-color: #ffffff;
+    --person-card-title-font-size: 20px;
+    --person-card-title-color: #ffffff;
+    --person-card-subtitle-font-size: 15px;
+    --person-card-subtitle-color: #ffffff;
+    --person-card-details-title-font-size: 18px;
+    --person-card-details-title-color: #b3bf0a;
+    --person-card-details-item-font-size: 15px;
+    --person-card-details-item-color: #3abf0a;
+    --person-card-background-color: linear-gradient(234deg,#000,#fff 66%);
+  }
 }

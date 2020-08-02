@@ -25,7 +25,7 @@ const personDetail1: any = {
 const MGTPerson: React.FunctionComponent<{}> = (props) => {
     TemplateHelper.setBindingSyntax('[[', ']]');
     return (
-        <>
+        <div style={{margin: '10px'}}>
             <div>
                 <div className={styles.sectionTitle}>Current Logged-in user using person-query as 'me'</div>
                 <mgt-person person-query="me" show-name show-email show-presence></mgt-person>
@@ -90,7 +90,7 @@ const MGTPerson: React.FunctionComponent<{}> = (props) => {
                     </template>
                 </mgt-person>
             </div>
-        </>
+        </div>
     );
 };
 
