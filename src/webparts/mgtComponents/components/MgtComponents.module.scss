@@ -56,6 +56,16 @@
         }
     }
   }
+  .customPersonCardContainer {
+      width: 100%;
+      padding: 10px;
+      color: #000;
+  }
+  div.personImage {
+        img {
+            border-radius: 10% 35%;
+        }
+    }
   .customPersonCard {
     --avatar-size: 48px;
     --avatar-border: 0;

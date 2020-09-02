@@ -129,6 +129,14 @@
           "manifest": "./src/webparts/mgtComponents/MgtComponentsWebPart.manifest.json"
         }
       ]
+    },
+    "multi-upload-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/multiUpload/MultiUploadWebPart.js",
+          "manifest": "./src/webparts/multiUpload/MultiUploadWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {
@@ -178,6 +186,7 @@
     "PnPCachingWebPartStrings": "lib/webparts/pnPCaching/loc/{locale}.js",
     "PnPConfigStoreWebPartStrings": "lib/webparts/pnPConfigStore/loc/{locale}.js",
     "HelloMgtWebPartStrings": "lib/webparts/helloMgt/loc/{locale}.js",
-    "MgtComponentsWebPartStrings": "lib/webparts/mgtComponents/loc/{locale}.js"
+    "MgtComponentsWebPartStrings": "lib/webparts/mgtComponents/loc/{locale}.js",
+    "MultiUploadWebPartStrings": "lib/webparts/multiUpload/loc/{locale}.js"
   }
 }

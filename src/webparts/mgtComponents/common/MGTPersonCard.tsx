@@ -23,6 +23,7 @@ const personDetail1: any = {
 };
 
 const MGTPersonCard: React.FC<{}> = (props) => {
+    TemplateHelper.setBindingSyntax('[[', ']]');
     return (
         <div style={{ margin: '10px' }}>
             <div>
@@ -47,6 +48,20 @@ const MGTPersonCard: React.FC<{}> = (props) => {
             <div>
                 <div className={styles.sectionTitle}>Using custom css</div>
                 <mgt-person-card class={styles.customPersonCard} person-query="vance" show-name show-email></mgt-person-card>
+            </div>
+            <div>
+                <div className={styles.sectionTitle}>Using templates</div>
+                <mgt-person-card person-query="vance">
+                    <template data-type="person-details">
+                        <div style={{ display: 'flex' }}>
+                            <div className={styles.personImage}><img src="[[personImage]]" /></div>
+                            <div className={styles.customPersonCardContainer}>
+                                <div><b>Title:</b> [[person.displayName]]</div>
+                                <div><b>Job Title:</b> [[person.jobTitle]]</div>
+                            </div>
+                        </div>
+                    </template>
+                </mgt-person-card>
             </div>
         </div>
     );

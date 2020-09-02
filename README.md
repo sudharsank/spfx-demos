@@ -48,6 +48,9 @@
 ### MGT-Person
 ![MGT-Person](./assets/SPFx-MGT-Person.png)
 
+### MGT-Person-Card
+![MGT-Person-Card](./assets/SPFx-MGT-PersonCard.png)
+
 ## Solution 
 
 Webparts|Description
@@ -67,6 +70,7 @@ PnPStorage | [Click here](https://spknowledge.com/2020/06/28/spfx-using-pnpclien
 PnPCaching | [Click here](https://spknowledge.com/2020/07/01/spfx-using-pnp-caching/) for more info
 HelloMGT | [Click here](https://spknowledge.com/2020/07/26/spfx-using-msgraph-toolkit/) for more info
 MGTPerson | [Click here](https://spknowledge.com/2020/08/01/spfx-mgt-person-component/) for more info
+MGTPersonCard | [Click here](https://spknowledge.com/2020/09/02/spfx-mgt-person-card-component/) for more info
 
 ## Building the code
 

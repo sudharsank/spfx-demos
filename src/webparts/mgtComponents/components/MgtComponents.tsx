@@ -12,14 +12,15 @@ export default class MgtComponents extends React.Component<IMgtComponentsProps, 
             <div className={styles.mgtComponents}>
                 <div className={styles.container}>
                     <div className={styles.row}>
-                        <Pivot>
-                            {/* <PivotItem headerText="Person" key="1">
+                        {/* <Pivot>
+                            <PivotItem headerText="Person" key="1">
                                 <MGTPerson />
-                            </PivotItem> */}
+                            </PivotItem>
                             <PivotItem headerText="Person Card" key="2">
                                 <MGTPersonCard />
                             </PivotItem>
-                        </Pivot>
+                        </Pivot> */}
+                        <MGTPersonCard />
                     </div>
                 </div>
             </div>
