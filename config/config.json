@@ -137,6 +137,14 @@
           "manifest": "./src/webparts/multiUpload/MultiUploadWebPart.manifest.json"
         }
       ]
+    },
+    "ms-graph-api-batch-sample-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/msGraphApiBatchSample/MsGraphApiBatchSampleWebPart.js",
+          "manifest": "./src/webparts/msGraphApiBatchSample/MsGraphApiBatchSampleWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {
@@ -187,6 +195,7 @@
     "PnPConfigStoreWebPartStrings": "lib/webparts/pnPConfigStore/loc/{locale}.js",
     "HelloMgtWebPartStrings": "lib/webparts/helloMgt/loc/{locale}.js",
     "MgtComponentsWebPartStrings": "lib/webparts/mgtComponents/loc/{locale}.js",
-    "MultiUploadWebPartStrings": "lib/webparts/multiUpload/loc/{locale}.js"
+    "MultiUploadWebPartStrings": "lib/webparts/multiUpload/loc/{locale}.js",
+    "MsGraphApiBatchSampleWebPartStrings": "lib/webparts/msGraphApiBatchSample/loc/{locale}.js"
   }
 }

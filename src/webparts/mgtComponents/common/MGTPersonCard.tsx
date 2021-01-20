@@ -37,8 +37,8 @@ const MGTPersonCard: React.FC<{}> = (props) => {
             <div>
                 <div className={styles.sectionTitle}>Using person-query with 'Firstname' and 'Lastname'</div>
                 <div style={{ display: 'inline-flex' }}>
-                    <div style={{ marginRight: '5px' }}><mgt-person-card person-query="prad" show-name show-email></mgt-person-card></div>
-                    <div><mgt-person-card person-query="vance" show-name show-email></mgt-person-card></div>
+                    <div style={{ marginRight: '5px' }}><mgt-person-card person-query="plil" show-name show-email></mgt-person-card></div>
+                    <div><mgt-person-card person-query="plil" show-name show-email></mgt-person-card></div>
                 </div>
             </div>
             <div>
@@ -47,11 +47,11 @@ const MGTPersonCard: React.FC<{}> = (props) => {
             </div>
             <div>
                 <div className={styles.sectionTitle}>Using custom css</div>
-                <mgt-person-card class={styles.customPersonCard} person-query="vance" show-name show-email></mgt-person-card>
+                <mgt-person-card class={styles.customPersonCard} person-query="plil" show-name show-email></mgt-person-card>
             </div>
             <div>
                 <div className={styles.sectionTitle}>Using templates</div>
-                <mgt-person-card person-query="vance">
+                <mgt-person-card person-query="plil">
                     <template data-type="person-details">
                         <div style={{ display: 'flex' }}>
                             <div className={styles.personImage}><img src="[[personImage]]" /></div>

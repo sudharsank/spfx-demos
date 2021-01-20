@@ -71,6 +71,7 @@ PnPCaching | [Click here](https://spknowledge.com/2020/07/01/spfx-using-pnp-cach
 HelloMGT | [Click here](https://spknowledge.com/2020/07/26/spfx-using-msgraph-toolkit/) for more info
 MGTPerson | [Click here](https://spknowledge.com/2020/08/01/spfx-mgt-person-component/) for more info
 MGTPersonCard | [Click here](https://spknowledge.com/2020/09/02/spfx-mgt-person-card-component/) for more info
+MSGraphAPIBatching | [Click here](https://spknowledge.com/2021/01/20/spfx-using-ms-graph-api-batch/) for more info
 
 ## Building the code
 
