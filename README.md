@@ -2,7 +2,7 @@
 
 >This is a sample project with different web parts showing different capabilities.
 
-> Please follow my blog [**_Know More_**](https://windowssharepointserver.blogspot.com/) for detailed explanation and concepts used.
+> Please follow my blog [**_Knowledge Share_**](https://spknowledge.com/) for detailed explanation and concepts used.
 
 ## Preview
 

@@ -32,6 +32,11 @@ export default class PnPLogging extends React.Component<IPnPLoggingProps, {}> {
         }
     }
 
+    public componentDidMount() {
+      this._generateError();
+      this._generateAsyncError();
+    }
+
     public render(): React.ReactElement<IPnPLoggingProps> {
         return (
             <div className={styles.pnPLogging}>
