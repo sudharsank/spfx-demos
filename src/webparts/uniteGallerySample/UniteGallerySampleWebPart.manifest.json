@@ -11,7 +11,7 @@
     "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
     "group": { "default": "Other" },
     "title": { "default": "UniteGallery Sample" },
-    "description": { "default": "Using Unite Gallery jQuery plugin." },
+    "description": { "default": "Using Unite Gallery jQuery plugin..." },
     "officeFabricIconFontName": "GiftboxOpen",
     "properties": { }
   }]
