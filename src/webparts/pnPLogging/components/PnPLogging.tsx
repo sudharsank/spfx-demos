@@ -28,13 +28,12 @@ export default class PnPLogging extends React.Component<IPnPLoggingProps, {}> {
         try {
             await sp.web.lists.getByTitle('Branches').items.select('Title').getAll();
         } catch (err) {
+            console.log("Error: ", err);
             util.writeErrorLog("PnPLogging.tsx", '_generateAsyncError', err.stack, LogLevel.Error, err);
         }
     }
 
     public componentDidMount() {
-      this._generateError();
-      this._generateAsyncError();
     }
 
     public render(): React.ReactElement<IPnPLoggingProps> {

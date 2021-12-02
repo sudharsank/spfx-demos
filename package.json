@@ -31,6 +31,8 @@
     "@types/react-dom": "16.8.3",
     "@types/webpack-env": "1.13.1",
     "csvtojson": "^2.0.10",
+    "handlebars": "^4.7.7",
+    "html-decoder": "^1.0.2",
     "image-resize": "^1.1.5",
     "moment": "^2.24.0",
     "office-ui-fabric-react": "6.214.0",

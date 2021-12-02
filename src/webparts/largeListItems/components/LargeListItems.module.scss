@@ -1,6 +1,6 @@
 @import '~office-ui-fabric-react/dist/sass/References.scss';
 
-.pnPCaching {
+.largeListItems {
   .container {
     max-width: 700px;
     margin: 0px auto;
@@ -15,11 +15,9 @@
 
   .column {
     @include ms-Grid-col;
-    text-align: center;
-    width: 100%;
-    button {
-        padding: 5px;
-        margin: 5px;
-    }
+    @include ms-lg10;
+    @include ms-xl8;
+    @include ms-xlPush2;
+    @include ms-lgPush1;
   }
 }

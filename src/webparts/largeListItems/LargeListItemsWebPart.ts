@@ -6,33 +6,26 @@ import {
     PropertyPaneTextField
 } from '@microsoft/sp-property-pane';
 import { BaseClientSideWebPart } from '@microsoft/sp-webpart-base';
+import {sp} from '@pnp/sp/presets/all';
+import * as strings from 'LargeListItemsWebPartStrings';
+import LargeListItems from './components/LargeListItems';
+import { ILargeListItemsProps } from './components/LargeListItems';
 
-import * as strings from 'PnPCachingWebPartStrings';
-import PnPCaching from './components/PnPCaching';
-import { IPnPCachingProps } from './components/IPnPCachingProps';
-
-import { sp } from '@pnp/sp';
-
-export interface IPnPCachingWebPartProps {
+export interface ILargeListItemsWebPartProps {
     description: string;
 }
 
-export default class PnPCachingWebPart extends BaseClientSideWebPart<IPnPCachingWebPartProps> {
+export default class LargeListItemsWebPart extends BaseClientSideWebPart<ILargeListItemsWebPartProps> {
 
-    public onInit(): Promise<void> {        
+    public onInit(): Promise<void> {
         return super.onInit().then(_ => {
-            sp.setup({
-                spfxContext: this.context,
-                defaultCachingStore: "local", //"session"
-                defaultCachingTimeoutSeconds: 300,
-                globalCacheDisable: false // or true to disable caching in case of debugging/testing
-            });
+            sp.setup(this.context);
         });
     }
 
     public render(): void {
-        const element: React.ReactElement<IPnPCachingProps> = React.createElement(
-            PnPCaching,
+        const element: React.ReactElement<ILargeListItemsProps> = React.createElement(
+            LargeListItems,
             {
                 description: this.properties.description
             }

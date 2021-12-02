@@ -145,6 +145,14 @@
           "manifest": "./src/webparts/msGraphApiBatchSample/MsGraphApiBatchSampleWebPart.manifest.json"
         }
       ]
+    },
+    "large-list-items-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/largeListItems/LargeListItemsWebPart.js",
+          "manifest": "./src/webparts/largeListItems/LargeListItemsWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {
@@ -196,6 +204,7 @@
     "HelloMgtWebPartStrings": "lib/webparts/helloMgt/loc/{locale}.js",
     "MgtComponentsWebPartStrings": "lib/webparts/mgtComponents/loc/{locale}.js",
     "MultiUploadWebPartStrings": "lib/webparts/multiUpload/loc/{locale}.js",
-    "MsGraphApiBatchSampleWebPartStrings": "lib/webparts/msGraphApiBatchSample/loc/{locale}.js"
+    "MsGraphApiBatchSampleWebPartStrings": "lib/webparts/msGraphApiBatchSample/loc/{locale}.js",
+    "LargeListItemsWebPartStrings": "lib/webparts/largeListItems/loc/{locale}.js"
   }
 }

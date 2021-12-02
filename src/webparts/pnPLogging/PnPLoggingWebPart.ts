@@ -30,6 +30,7 @@ export default class PnPLoggingWebPart extends BaseClientSideWebPart<IPnPLogging
 
     private customLogging(): void {
         try {
+            let advanceLogging = undefined;
             let listener = new FunctionListener((entry: ILogEntry) => {
                 try {
                     switch (entry.level) {
@@ -43,14 +44,14 @@ export default class PnPLoggingWebPart extends BaseClientSideWebPart<IPnPLogging
                             //console.warn(entry.message);
                             break;
                         case LogLevel.Error:
-                            let advanceLogging = new CustomLogger("Sample Logging", this.context.pageContext.site.absoluteUrl, "Error Log", this.context.pageContext.user.loginName);
+                            advanceLogging = new CustomLogger("Sample Logging", this.context.pageContext.site.absoluteUrl, "Error Log", this.context.pageContext.user.loginName);                            
                             Logger.subscribe(advanceLogging);
                             break;
                     }
                 } catch (err) {
                     console.error(`Error executing customLogging FunctionListener - ${err}`);
                 }
-            });
+            });            
             Logger.subscribe(listener);
         } catch (err) {
             console.error(`Error initializing customLogging - ${err}`);
