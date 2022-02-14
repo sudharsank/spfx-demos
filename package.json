@@ -55,7 +55,7 @@
     "@types/jquery": "^3.3.38",
     "@types/mocha": "2.2.38",
     "@types/toastr": "^2.1.38",
-    "ajv": "~5.2.2",
+    "ajv": "~6.12.3",
     "gulp": "~3.9.1",
     "jquery": "^3.5.1",
     "@types/react": "16.8.8",
