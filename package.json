@@ -34,7 +34,7 @@
     "handlebars": "^4.7.7",
     "html-decoder": "^1.0.2",
     "image-resize": "^1.1.5",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "office-ui-fabric-react": "6.214.0",
     "react": "16.8.5",
     "react-dom": "16.8.5",
